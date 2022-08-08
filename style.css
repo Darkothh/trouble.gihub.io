@@ -74,6 +74,7 @@ input {
 .parr p {
   font-size: 15px;
   font-style: normal;
+  text-align: center;
 }
 .parr a {
     text-decoration: none;
