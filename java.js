@@ -34,13 +34,14 @@ function P12312312() {
 
 function verif() {
   var secret = "4LURUR4!$";
-  var input = document.querySelector("input");
+  var input = document.querySelector("form");
 
   if (input.value == secret) {
   window.location.href="./pg2/enc.html";
   } else {
+    console.log("no pasa")
     let notify = document.getElementById("err");
-    notify.innerHTML = "Contraseña invalida (revisa los comentarios en el código fuente)";
+    notify.innerHTML = " Contraseña invalida (revisa los comentarios en el código fuente)";
     notify.style.display = "block";
   }
 }
