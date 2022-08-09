@@ -22,23 +22,26 @@ body {
 
 input {
 	background-color: #101826;
-  font-size: 2rem;
+  font-size: 1.5rem;
 	color: #05FF00;
   padding: 20px;
 	border-style: none;
   border-radius: 50px;
-  width: 90%;
-  margin-bottom: 50px;
+  margin: 15px;
 }
 
 .boton {
   background-color: #00EF18;
-  font-size: 1.5rem;
-  width: 250px;
+  font-size: 1.3rem;
+  width: 200px;
+  height: 40px;
   padding: 20px;
   cursor:pointer;
   border: none;
   border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .txt {
@@ -46,7 +49,6 @@ input {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  word-break: break;
 }
 
 .form {
@@ -54,21 +56,20 @@ input {
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
-  margin: 30px;
-  margin-top: 70px;
+  /* margin: 30px; */
+  /* margin-top: 70px; */
 }
 
 .claro p {
   font-size: 20px;
   font-style: italic;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .parr {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin: 20px;
 }
 
 .parr p {
@@ -85,6 +86,7 @@ input {
   font-size: 2rem;
   margin: 30px;
   color: #ffffff;
+  text-align: center;
 }
 
 #err {
@@ -92,7 +94,13 @@ input {
   background: #f54242;
   border: 1px solid #bd1717;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   color: #fff;
   font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
 }

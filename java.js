@@ -29,19 +29,21 @@ function S1312551231() {
 }
 
 function P12312312() {
-  console.log('%c USUARIO:******* CONTRASEÑA: NExVUlVSNCEk (base64)', 'color: green;');  
+  console.log('%c USUARIO: $TU$D#NT | CONTRASEÑA: NExVUlVSNCEk (base64)', 'color: green;');  
 }
 
 function verif() {
+  var user = "$TU$D#NT";
   var secret = "4LURUR4!$";
-  var input = document.querySelector("form");
+  var input = document.querySelector("#password");
+  var inpUser = document.querySelector("#user");
 
-  if (input.value == secret) {
-  window.location.href="./pg2/enc.html";
+  if (input.value == secret && inpUser.value == user) {
+  window.location.href="./pg2/";
   } else {
     console.log("no pasa")
     let notify = document.getElementById("err");
-    notify.innerHTML = " Contraseña invalida (revisa los comentarios en el código fuente)";
+    notify.innerHTML = " Usuario o Contraseña invalida (revisa los comentarios en el código fuente)";
     notify.style.display = "block";
   }
 }
