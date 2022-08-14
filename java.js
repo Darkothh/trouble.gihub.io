@@ -29,7 +29,11 @@ function S1312551231() {
 }
 
 function P12312312() {
-  console.log('%c USUARIO: $TU$D#NT | CONTRASEÑA: NExVUlVSNCEk (base64)', 'color: green;');  
+  console.log('%c USUARIO: $TU$D#NT | CONTRASEÑA: NExVUlVSNCEk (base64) \r\n Para una pista ejecuta "pista()"', 'color: green;');  
+}
+
+function pista() {
+  console.log('%c La contraseña esta encriptada en base64, puedes desencriptarla buscando "base 64 decode" en google', 'color: green;');
 }
 
 function verif() {
