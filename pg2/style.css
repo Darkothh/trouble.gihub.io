@@ -99,9 +99,9 @@ header {
 		font-size: 1rem;
 	}
 
-  .full {
-   flex-direction: column; 
-  }
+  /* .full { */
+  /*  flex-direction: column; */ 
+  /* } */
 
   /* .textArea { */
   /* width: 100%; */
@@ -150,7 +150,8 @@ header {
   border-radius: 30px;
   padding: 10px;
   color: #ffffff;
-  word-break: break-all;
+  max-width: 300px;
+  /* word-break: break-all; */
   margin: 30px;
 }
 
@@ -178,7 +179,7 @@ header {
     outline: none;
     padding: 0px;
     resize: none;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
     border: none;
     resize: none;
@@ -196,6 +197,8 @@ header {
   margin: 30px;
 }
 
+
+
 .btn-2 {
   background-color: rgba(0%, 0%, 0%, 0%);
   color: #ffffff;
@@ -207,6 +210,14 @@ header {
   border-radius: 30px;
   margin: 30px;
   font-weight:lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-2 img {
+  height: 25px;
+  margin: 10px;
 }
 
 #err {
