@@ -103,13 +103,13 @@ header {
    flex-direction: column; 
   }
 
-  .textArea {
+  /* .textArea { */
   /* width: 100%; */
     /* display: flex; */
-  }
-  .caja-1 {
-    flex-direction: column;
-  }
+  /* } */
+  /* .caja-1 { */
+  /*   flex-direction: column; */
+  /* } */
 
 }
 .full {
@@ -233,8 +233,15 @@ header {
 
 .info {
   display: flex;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 .info p{
   margin-left: 10px;
+}
+
+.info img {
+  height: 16px;
 }
