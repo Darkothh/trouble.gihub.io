@@ -157,7 +157,8 @@ header {
 
 .caja-2 p{
   font-size: 1.5rem;
-    padding: 20px;
+  padding: 20px;
+  word-break: break-all;
 }
 
 .buttons {
@@ -170,7 +171,7 @@ header {
 .textInput{
     color: #ffff;
     font-family: 'Fira Code', sans-serif;
-    font-size: 2rem;
+    font-size: 4vmin;
     /* margin: 50px; */
     background-color: #101826;
     /* border: none; */
