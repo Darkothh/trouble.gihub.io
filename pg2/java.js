@@ -2,7 +2,8 @@ const textInput = document.querySelector("#textInput")
 
 function encriptar() {
   var textModif = textInput.value
-  var newText = textModif.toLowerCase()
+  var textReplace = textModif.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  var newText = textReplace.toLowerCase()
     .replaceAll("e", "enter")
     .replaceAll("i", "imes")
     .replaceAll("a", "ai")
