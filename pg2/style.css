@@ -102,12 +102,18 @@ header {
   }
 
 }
-
 .full {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 30px;
+  text-align: center;
+  min-height: 100vh;
 }
+/* .full { */
+/*   display: flex; */
+/*   align-items: center; */
+/*   margin: 30px; */
+/* } */
 
 .textArea {
   margin: 20px;
@@ -140,6 +146,8 @@ header {
 .buttons {
   display: flex;
   padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .textInput{
@@ -150,7 +158,7 @@ header {
     background-color: #101826;
     border: none;
     resize: none;
-    height: 500px;
+    height: 300px;
 }
 
 .btn {
@@ -197,4 +205,12 @@ header {
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
+}
+
+.info {
+  display: flex;
+}
+
+.info p{
+  margin-left: 10px;
 }

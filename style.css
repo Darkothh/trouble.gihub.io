@@ -31,18 +31,36 @@ input {
   margin: 15px;
 }
 
-.boton {
-  background-color: #00EF18;
-  font-size: 1.3rem;
-  width: 200px;
-  height: 40px;
-  padding: 20px;
-  cursor:pointer;
-  border: none;
-  border-radius: 30px;
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.btn:hover {
+  background-color: #00EF18;
+  font-size: 1.3rem;
+  width: 200px;
+  height: 60px;
+  cursor:pointer;
+  border: none;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.btn {
+  background-color:rgba(25, 34, 49, 1);
+  color: #ffffff;
+  border-color: #00EF18;
+  font-size: 1.3rem;
+  width: 200px;
+  height: 60px;
+  cursor:pointer;
+  border-radius: 30px;
+  margin: 30px;
+  font-weight:lighter;
 }
 
 .txt {
@@ -99,4 +117,10 @@ input {
   color: #fff;
   font-weight: bold;
   text-align: center;
+}
+
+@media (max-width:700px) {
+  input {
+    font-size: 1rem;
+  }
 }
