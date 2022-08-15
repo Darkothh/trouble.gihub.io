@@ -10,16 +10,25 @@ body {
   background-color: #192231;
 }
 
+/* header { */
+/*   position: sticky; */
+/*   top: 0; */
+/*   z-index: 999; */
+/* } */
+
 header {
+  position: sticky;
+  top:0;
   display: flex;
   justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+  background-color: #000000;
 }
 
 .logo {
-	display: flex;
-	align-items: center;
+	/* display: flex; */
+	/* align-items: center; */
 	margin: 10px;
 }
 
@@ -95,7 +104,8 @@ header {
   }
 
   .textArea {
-    display: flex;
+  /* width: 100%; */
+    /* display: flex; */
   }
   .caja-1 {
     flex-direction: column;
@@ -104,10 +114,12 @@ header {
 }
 .full {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* min-height: 100vh; */
 }
 /* .full { */
 /*   display: flex; */
@@ -122,8 +134,11 @@ header {
 .caja-1 {
   display: flex;
   align-items: center;
+  flex-direction: column;
   background-color: #101826;
   border-radius: 30px;
+  margin: 30px;
+  max-width: 600px;
 }
 
 .caja-2 {
@@ -136,6 +151,7 @@ header {
   padding: 10px;
   color: #ffffff;
   word-break: break-all;
+  margin: 30px;
 }
 
 .caja-2 p{
@@ -154,11 +170,19 @@ header {
     color: #ffff;
     font-family: 'Fira Code', sans-serif;
     font-size: 2rem;
-    margin: 50px;
+    /* margin: 50px; */
     background-color: #101826;
+    /* border: none; */
+    background: transparent;
+    appearance: none;
+    outline: none;
+    padding: 0px;
+    resize: none;
+    width: 100%;
+    overflow: hidden;
     border: none;
     resize: none;
-    height: 300px;
+    height: 280px;
 }
 
 .btn {
