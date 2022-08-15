@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="alura logo" href="./images/alura-logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
   </head>
   <body>
@@ -20,12 +21,23 @@
           <a class="link link--page" href="https://www.linkedin.com/in/dylan-fierro/" target="_blank">Linkedin</a>
         </div>
     </header>
-   <section class="secText">
-     <!-- <textarea type="text"> -->
-     <button type="submit">Encriptar</button>
-     <button type="submit">Desencripar</button>
+   <section class="full">
+     <div class="caja-1">
+       <form class="textArea">
+         <textarea class="textInput" id="textInput" autofocus placeholder="Escribe algo"></textarea>
+       </form>
+       <div class="buttons">
+         <button class="btn" onclick="encriptar()">Encriptar</button>
+         <button class="btn-2" onclick="desencriptar()">Desencripar</button>
+       </div>
+     </div>
+     <div id="err"></div>
+   <div class="caja-2">
+     <p id="textDesencripted">No hay nada</p>
+     <div id="popCopy"></div>
+     <button class="btn-2" id="copy" onclick="copy()">Copiar</button>
+   </div>
    </section> 
-   <section class="secDesencripted">
-   </section>
   </body>
+  <script src="./java.js"></script>
 </html>

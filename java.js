@@ -49,5 +49,8 @@ function verif() {
     let notify = document.getElementById("err");
     notify.innerHTML = " Usuario o Contraseña invalida (revisa los comentarios en el código fuente)";
     notify.style.display = "block";
+    setTimeout(function() {
+    notify.style.display = "none";
+  }, 3000);
   }
 }
