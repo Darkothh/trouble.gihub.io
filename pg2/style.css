@@ -99,33 +99,12 @@ header {
 		font-size: 1rem;
 	}
 
-  /* .full { */
-  /*  flex-direction: column; */ 
-  /* } */
-
-  /* .textArea { */
-  /* width: 100%; */
-    /* display: flex; */
-  /* } */
-  /* .caja-1 { */
-  /*   flex-direction: column; */
-  /* } */
-
 }
 .full {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* text-align: center; */
-  /* min-height: 100vh; */
-}
-/* .full { */
-/*   display: flex; */
-/*   align-items: center; */
-/*   margin: 30px; */
-/* } */
+ }
 
 .textArea {
   margin: 20px;
@@ -151,14 +130,13 @@ header {
   padding: 10px;
   color: #ffffff;
   max-width: 300px;
-  /* word-break: break-all; */
   margin: 30px;
 }
 
 .caja-2 p{
   font-size: 1.5rem;
   padding: 20px;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .buttons {
@@ -172,15 +150,12 @@ header {
     color: #ffff;
     font-family: 'Fira Code', sans-serif;
     font-size: 4vmin;
-    /* margin: 50px; */
     background-color: #101826;
-    /* border: none; */
     background: transparent;
     appearance: none;
     outline: none;
     padding: 0px;
     resize: none;
-    /* width: 100%; */
     overflow: hidden;
     border: none;
     resize: none;
