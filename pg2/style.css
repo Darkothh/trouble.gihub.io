@@ -10,12 +10,6 @@ body {
   background-color: #192231;
 }
 
-/* header { */
-/*   position: sticky; */
-/*   top: 0; */
-/*   z-index: 999; */
-/* } */
-
 header {
   position: sticky;
   top:0;
@@ -27,13 +21,10 @@ header {
 }
 
 .logo {
-	/* display: flex; */
-	/* align-items: center; */
 	margin: 10px;
 }
 
 .logo img {
-	/* height: 48px; */
 	width: 25px;
 }
 
@@ -137,6 +128,7 @@ header {
   font-size: 1.5rem;
   padding: 20px;
   word-break: break-word;
+  text-align: center;
 }
 
 .buttons {

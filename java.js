@@ -43,7 +43,7 @@ function verif() {
   var inpUser = document.querySelector("#user");
 
   if (input.value == secret && inpUser.value == user) {
-  window.location.href="./pg2/";
+  window.location.href="./d.html";
   } else {
     console.log("no pasa")
     let notify = document.getElementById("err");
